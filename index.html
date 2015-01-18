@@ -1,91 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>MLH Update</title>
-    <meta charset="UTF-8">
-    <link rel="icon" type="png" href="images/mhlogo.png">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <script src="js/global.js" type="text/javascript"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-    <div id="container">
-        <div class="page">
-            <div id="landingPage">
-                <div id="content">
-                    <h1 class="mainLogo"><span>Massey Hackers</span></h1>
-                    <div class="quote">"It's not about ideas. It's about making ideas happen." - Scott Belsky</div>
-                    <form method="POST" action="mailing.php">
-                        <input class="sexyForm" type="email" name="email" placeholder="Subscribe to our mailing list!" required>
-                        <input class="hideSubmit" type="submit" name="submit" value="Submit">
-                    </form>
-                </div>
-                <div id="imgOverlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">MLH Update</a>
             </div>
-            <div id="nav">
-                <ul>
-                    <li class="navi" id="go-about"><div>About</div></li>
-                    <li class="navi" id="go-schedule"><div>Schedule</div></li>
-                    <li class="navi" id="go-contact"><div>Contact</div></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Unsubscribe</a>
+                    </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="page" id="about">
-            <div class="pageContent">
-                <div class="title">About Us</div>
-                <div class="subtitle">We don't bite.</div>
-                <div class="pageBody">
-                    <div class="pageImage"></div>
-                    <div class="body">
-                        Massey Hackers is a group of people dedicated to pushing their knowledge in development, building their ideas, and using the newest technologies. We feel a constant need to expand our skillsets, and don't think twice about trying something new. Our goal is to see an idea from its conception to its release.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="page" id="schedule">
-            <div class="pageContent">
-                <div class="title">Schedule</div>
-                <div class="subtitle">What's happening.</div>
-                <table class="sexyTable">
-                    <tr class="tableHeader">
-                        <td>Date</td>
-                        <td>Event</td>
-                        <td>Time</td>
-                    </tr>
-                    <tr class="tableBody">
-                        <td>Jan 9th</td>
-                        <td>Introductions</td>
-                        <td>1hour</td>
-                    </tr>
-                    <tr class="tableBody">
-                        <td>Jan 16th</td>
-                        <td>What Can I Build?</td>
-                        <td>1hour</td>
-                    </tr>
-                    <tr class="tableBody">
-                        <td>Jan 23rd</td>
-                        <td>Intro to Git and Github</td>
-                        <td>30mins</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="page" id="contact">
-            <div class="pageContent">
-                <div class="title">Contact Us</div>
-                <div class="subtitle">Need to talk? Lets talk!</div>
-                <div class="body">Get in touch with us by sending an email.</div>
-                <div class="email"><a href="mailto:mail@masseyhackers.com">mail@masseyhackers.com</a></div>
-            </div>
-        </div>
-        <div class="page" id="footer">
-            <div class="pageContent">
-                <div class="copyright">2014 ♥ MasseyHackers</div>
-            </div>
-        </div>
-    </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Put your page content here! -->
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
