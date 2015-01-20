@@ -10,6 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <script src="script.js"></script>
+
     <title>MLH Update</title>
 
     <!-- Bootstrap Core CSS -->
@@ -43,31 +45,31 @@
                 <a class="navbar-brand" href="#">MLH Update</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Unsubscribe</a>
-                    </li>
-                </ul>
-            </div>
+            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
     <!-- Put your page content here! -->
-    <form>
+    <form name="subscribeform">
         <label>Email:</label>
-        <input type="text" name="firstname" />
+        <input type="text" name="emailinput">
 
-        <input type="button" value="submit" onClick="processEmail()">
+        <input type="button" value="submit" onClick="processForm()">
+        
     </form>
+
+    <div id="subbed"></div>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    
 
 </body>
 
