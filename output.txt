@@ -1,5 +1,6 @@
 TunaHack
 HopHacks
+MHacks
 WeCanCode Ensenada
 BigRed//Hacks
 WUHack
@@ -10,9 +11,12 @@ SDHacks
 VandyHacks
 #include<a-thon>
 HackNC
+Kent Hack Enough
 LocalHackDay
+HackUMass
 BostonHacks
 hackUstate
 HackNJIT
+HackHarvard
 CodeRED
 WildHacks
