@@ -1,22 +1,30 @@
 TunaHack
+PennApps
 HopHacks
 MHacks
 WeCanCode Ensenada
 BigRed//Hacks
+HackTheNorth
 WUHack
 hackNY
 HackTX
 Huskie Hack
+MavHack
 SDHacks
 VandyHacks
 #include<a-thon>
 HackNC
 Kent Hack Enough
 LocalHackDay
+BoilerMake
+Desert Hacks
 HackUMass
 BostonHacks
 hackUstate
+HackDuke
 HackNJIT
 HackHarvard
+HackRPI
 CodeRED
 WildHacks
+HackWestern

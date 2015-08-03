@@ -26,7 +26,7 @@ if len(oldhackathons)!=len(newhackathons):
 
     sg = sendgrid.SendGridClient(sguser, sgpass)
     message = sendgrid.Mail()
-    message.add_to("ioana.crant@gmail.com")
+    message.add_to("nnkkn@gmail.com")
     message.set_from("hackathon.update@gmail.com")
     message.set_subject("Some hackathons have been added to MLH! They are: "+" ".join(addedhackathons))
     message.set_html("Hey, check out MLH.io!")
